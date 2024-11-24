@@ -1,6 +1,6 @@
 # We added a variable at the beginning of the script called EXCLUDE_TG, which contains the IDs of the TGs that you want to ignore.
 
-# Define TGs to exclude  
+Define TGs to exclude  
 EXCLUDE_TG = [1234, 5678]  # Replace these values with the TGs that you want to exclude.
 
 Why?: This list allows you to specify the TGs to exclude in a simple and centralized manner. You can add or remove IDs from this list without having to modify other parts of the code.
