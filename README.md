@@ -75,7 +75,7 @@ Now the installation is completed, thank you for install this script any feedbac
 **Instalación**
 ```
 cd /opt    
-sudo git clone https://github.com/yuvelq/TG_Count.git  
+sudo git https://github.com/FRS077/TG_Count.git 
 cd TG_Count
 cp config.sample.py config.py
 ```
