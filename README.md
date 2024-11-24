@@ -1,10 +1,9 @@
-# Nous avons ajouté une variable au début du script, appelée EXCLUDE_TG, qui contient les identifiants des TG que vous souhaitez ignorer.
+# We added a variable at the beginning of the script called EXCLUDE_TG, which contains the IDs of the TGs that you want to ignore.
 
 # Define TGs to exclude  
-EXCLUDE_TG = [1234, 5678]  # Remplacez ces valeurs par les TG que vous souhaitez exclure
+EXCLUDE_TG = [1234, 5678]  # Replace these values with the TGs that you want to exclude.
 
-Pourquoi ? : Cette liste permet de spécifier les TG à exclure de manière simple et centralisée. Vous pouvez ajouter ou retirer des identifiants dans cette liste sans avoir à modifier d'autres parties du code.
-
+Why?: This list allows you to specify the TGs to exclude in a simple and centralized manner. You can add or remove IDs from this list without having to modify other parts of the code.
 
 # TG Count  
 - This script generates a PHP file with stats for the most used TG and the most seen callsings.  
