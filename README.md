@@ -1,3 +1,11 @@
+# Nous avons ajouté une variable au début du script, appelée EXCLUDE_TG, qui contient les identifiants des TG que vous souhaitez ignorer.
+
+# Define TGs to exclude  
+EXCLUDE_TG = [1234, 5678]  # Remplacez ces valeurs par les TG que vous souhaitez exclure
+
+Pourquoi ? : Cette liste permet de spécifier les TG à exclure de manière simple et centralisée. Vous pouvez ajouter ou retirer des identifiants dans cette liste sans avoir à modifier d'autres parties du code.
+
+
 # TG Count  
 - This script generates a PHP file with stats for the most used TG and the most seen callsings.  
 - It works with FreeDMR logbook and also with 'lastheard.log' from HBMonV2, if you are running in separate servers.  
