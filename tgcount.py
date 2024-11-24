@@ -92,7 +92,7 @@ id_dict = {}
 size_ref = None
 
 # Define TGs to exclude  
-EXCLUDE_TG = [216, 262]  # Replace these values with the TGs you want to exclude
+EXCLUDE_TG = [1234, 5678]  # Replace these values with the TGs you want to exclude
 
 while True:
 
