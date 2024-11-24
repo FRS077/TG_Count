@@ -1,0 +1,17 @@
+setuptools
+wheel
+Twisted
+dmr_utils3
+bitstring
+autobahn
+jinja2
+MarkupSafe
+pyOpenSSL
+service-identity
+mysqlclient
+bitarray
+configparser
+resettabletimer
+setproctitle
+Pyro5
+spyne

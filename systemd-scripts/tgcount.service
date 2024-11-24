@@ -1,0 +1,17 @@
+[Unit]
+Description=TG_Count service
+
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=root
+Type=simple
+WorkingDirectory=/opt/TG_Count
+RestartSec=3
+ExecStart=python3 tgcount.py
+Restart=on-failure
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
