@@ -19,7 +19,7 @@ Why?: This list allows you to specify the TGs to exclude in a simple and central
 **Installation**
 ```
 cd /opt    
-sudo git clone https://github.com/yuvelq/TG_Count.git
+sudo git clone https://github.com/FRS077/TG_Count.git
 cd TG_Count
 sudo cp config.sample.py config.py
 ```
